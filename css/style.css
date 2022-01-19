@@ -1,50 +1,89 @@
-body{
+/* font-family: 'Roboto', sans-serif; */
+
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-  background-color: #555;
+header {
+  background-color: #444;
   height: 100px;
   margin-bottom: 30px;
 }
 
-nav{
+nav {
   width: 960px;
   margin: auto;
 }
 
-header img{
-  float:left;
+header img {
+  float: left;
   margin-top: 15px;
 }
 
-header ul li{
+header ul li {
   display: inline-block;
   margin-top: 45px;
-  margin-left: 35px;
+  margin-left: 30px;
+  margin-right: 40px;
 }
 
-a{
+a {
   text-decoration: none;
-  color: #888;
+  color: #777
 }
 
-main{
+main {
   width: 960px;
   margin: auto;
 }
 
-main ul li{
+main ul li {
   float: left;
-  margin: 30px 30px 30px 0px;
+  margin: 30px 30px 30px 0px
 }
 
 main ul li:last-child {
-  margin-right: 0px;
+  margin-right: 0px
+}
+
+section div{
+  width: 450px;
+  float:right;
 }
 
 section div p {
-  width: 300px;
-  height: 300px;
+  height: 335px;
   overflow: auto;
+  display: inline-block;
+  font-style: italic;
+}
+
+footer {
+  background-color: #444;
+  height: 120px;
+  margin-top: 30px;
+}
+
+h2 {
+  margin-bottom: 6px;
+  font-size: larger;
+  font-weight:bold
+}
+
+div div{
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 140px ;
+  background-color: black;
+  padding-bottom: 10px;
+  padding-top: 8px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+div div:hover{
+  background-color: grey;
+  transition-delay: 350ms;
 }
